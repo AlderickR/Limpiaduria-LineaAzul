@@ -79,3 +79,11 @@ docker buildx create --name mybuilder --driver docker-container --bootstrap
 ```
 docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 -t <username>/<image>:latest --push .
 ```
+
+## Swagger
+
+1. Url swagger:
+
+```
+http://localhost:3000/api/v2/documentation
+```
