@@ -3,13 +3,10 @@ import {
   HttpException,
   Injectable,
   InternalServerErrorException,
-  NotFoundException,
 } from '@nestjs/common';
-import { Observable } from 'rxjs';
+
 import { EExceptionsOptions } from '../interfaces';
 import { IParamsExceptionsOptions } from '../interfaces/paramsExceptionsOptiones.interface';
-
-import { ResponseGenericDto } from '../response/reponse-generic.dto';
 
 @Injectable()
 export class ErrorCatchService {
